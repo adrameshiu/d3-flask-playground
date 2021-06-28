@@ -1,0 +1,1489 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "layer": 1,
+            "id": "ADE"
+        },
+        {
+            "layer": 1,
+            "id": "URX"
+        },
+        {
+            "layer": 1,
+            "id": "ASH"
+        },
+        {
+            "layer": 1,
+            "id": "AWB"
+        },
+        {
+            "layer": 1,
+            "id": "AVF"
+        },
+        {
+            "layer": 2,
+            "id": "AVB"
+        },
+        {
+            "layer": 1,
+            "id": "ADA"
+        },
+        {
+            "layer": 1,
+            "id": "ADL"
+        },
+        {
+            "layer": 1,
+            "id": "OLQ"
+        },
+        {
+            "layer": 1,
+            "id": "BAG"
+        },
+        {
+            "layer": 1,
+            "id": "RIP"
+        },
+        {
+            "layer": 1,
+            "id": "AUA"
+        },
+        {
+            "layer": 1,
+            "id": "AIB"
+        },
+        {
+            "layer": 1,
+            "id": "AVE"
+        },
+        {
+            "layer": 0,
+            "id": "PDE"
+        },
+        {
+            "layer": 1,
+            "id": "DVA"
+        },
+        {
+            "layer": 2,
+            "id": "AVA"
+        },
+        {
+            "layer": 1,
+            "id": "PVC"
+        },
+        {
+            "layer": 0,
+            "id": "ASI"
+        },
+        {
+            "layer": 1,
+            "id": "SAA"
+        },
+        {
+            "layer": 1,
+            "id": "PVP"
+        },
+        {
+            "layer": 0,
+            "id": "CEP"
+        },
+        {
+            "layer": 1,
+            "id": "AVJ"
+        },
+        {
+            "layer": 1,
+            "id": "RIM"
+        },
+        {
+            "layer": 1,
+            "id": "RIC"
+        },
+        {
+            "layer": 1,
+            "id": "URB"
+        },
+        {
+            "layer": 1,
+            "id": "SIA"
+        },
+        {
+            "layer": 0,
+            "id": "ADF"
+        },
+        {
+            "layer": 1,
+            "id": "IL2"
+        },
+        {
+            "layer": 1,
+            "id": "RMG"
+        },
+        {
+            "layer": 1,
+            "id": "AWC"
+        },
+        {
+            "layer": 1,
+            "id": "RIA"
+        },
+        {
+            "layer": 1,
+            "id": "RIB"
+        },
+        {
+            "layer": 0,
+            "id": "ASK"
+        },
+        {
+            "layer": 1,
+            "id": "RIF"
+        },
+        {
+            "layer": 1,
+            "id": "SMB"
+        },
+        {
+            "layer": 1,
+            "id": "AQR"
+        },
+        {
+            "layer": 0,
+            "id": "ASE"
+        },
+        {
+            "layer": 0,
+            "id": "AWA"
+        },
+        {
+            "layer": 1,
+            "id": "AVK"
+        },
+        {
+            "layer": 1,
+            "id": "PVR"
+        },
+        {
+            "layer": 1,
+            "id": "URY"
+        },
+        {
+            "layer": 1,
+            "id": "AIM"
+        },
+        {
+            "layer": 1,
+            "id": "AVD"
+        },
+        {
+            "layer": 1,
+            "id": "BDU"
+        },
+        {
+            "layer": 0,
+            "id": "ASG"
+        },
+        {
+            "layer": 1,
+            "id": "FLP"
+        },
+        {
+            "layer": 1,
+            "id": "AVH"
+        },
+        {
+            "layer": 1,
+            "id": "SMD"
+        },
+        {
+            "layer": 1,
+            "id": "RMH"
+        },
+        {
+            "layer": 0,
+            "id": "ASJ"
+        },
+        {
+            "layer": 1,
+            "id": "PVQ"
+        },
+        {
+            "layer": 0,
+            "id": "AFD"
+        },
+        {
+            "layer": 1,
+            "id": "RMD"
+        },
+        {
+            "layer": 1,
+            "id": "ALN"
+        }
+    ],
+    "links": [
+        {
+            "weight": 2,
+            "source": "ADE",
+            "target": "URX",
+            "key": 0
+        },
+        {
+            "weight": 12,
+            "source": "ADE",
+            "target": "RMG",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "ADE",
+            "target": "AVJ",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "ADE",
+            "target": "AVH",
+            "key": 0
+        },
+        {
+            "weight": 3,
+            "source": "ADE",
+            "target": "URB",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "ADE",
+            "target": "SIA",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "ADE",
+            "target": "SMD",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "ADE",
+            "target": "RMH",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "ADE",
+            "target": "ADA",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "ADE",
+            "target": "SAA",
+            "key": 0
+        },
+        {
+            "weight": 8,
+            "source": "ADE",
+            "target": "ADE",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "ADE",
+            "target": "RIF",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "ADE",
+            "target": "ALN",
+            "key": 0
+        },
+        {
+            "weight": 9,
+            "source": "ADE",
+            "target": "FLP",
+            "key": 0
+        },
+        {
+            "weight": 3,
+            "source": "ADE",
+            "target": "RIA",
+            "key": 0
+        },
+        {
+            "weight": 29,
+            "source": "ADE",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 3,
+            "source": "ADE",
+            "target": "SMB",
+            "key": 0
+        },
+        {
+            "weight": 7,
+            "source": "ADE",
+            "target": "AVE",
+            "key": 0
+        },
+        {
+            "weight": 7,
+            "source": "ADE",
+            "target": "AVD",
+            "key": 0
+        },
+        {
+            "weight": 9,
+            "source": "URX",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 3,
+            "source": "URX",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "ASH",
+            "target": "AWB",
+            "key": 0
+        },
+        {
+            "weight": 7,
+            "source": "ASH",
+            "target": "ADA",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "ASH",
+            "target": "PVP",
+            "key": 0
+        },
+        {
+            "weight": 12,
+            "source": "ASH",
+            "target": "RIA",
+            "key": 0
+        },
+        {
+            "weight": 26,
+            "source": "ASH",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 4,
+            "source": "ASH",
+            "target": "RIM",
+            "key": 0
+        },
+        {
+            "weight": 20,
+            "source": "ASH",
+            "target": "AIB",
+            "key": 0
+        },
+        {
+            "weight": 7,
+            "source": "ASH",
+            "target": "AVE",
+            "key": 0
+        },
+        {
+            "weight": 20,
+            "source": "ASH",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 56,
+            "source": "ASH",
+            "target": "AVD",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "ASH",
+            "target": "URX",
+            "key": 0
+        },
+        {
+            "weight": 6,
+            "source": "ASH",
+            "target": "RMG",
+            "key": 0
+        },
+        {
+            "weight": 19,
+            "source": "ASH",
+            "target": "ADL",
+            "key": 0
+        },
+        {
+            "weight": 3,
+            "source": "ASH",
+            "target": "PVC",
+            "key": 0
+        },
+        {
+            "weight": 3,
+            "source": "ASH",
+            "target": "AVH",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "ASH",
+            "target": "AVF",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "AWB",
+            "target": "AWC",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "AWB",
+            "target": "URY",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "AWB",
+            "target": "AVH",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "AWB",
+            "target": "RIF",
+            "key": 0
+        },
+        {
+            "weight": 4,
+            "source": "AWB",
+            "target": "ASH",
+            "key": 0
+        },
+        {
+            "weight": 13,
+            "source": "AWB",
+            "target": "RIA",
+            "key": 0
+        },
+        {
+            "weight": 3,
+            "source": "AWB",
+            "target": "SMB",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "AWB",
+            "target": "AIB",
+            "key": 0
+        },
+        {
+            "weight": 4,
+            "source": "AWB",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "AWB",
+            "target": "AIM",
+            "key": 0
+        },
+        {
+            "weight": 5,
+            "source": "AVF",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 47,
+            "source": "AVB",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 8,
+            "source": "AVB",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 18,
+            "source": "ADA",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 49,
+            "source": "ADA",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "ADL",
+            "target": "OLQ",
+            "key": 0
+        },
+        {
+            "weight": 3,
+            "source": "ADL",
+            "target": "PVC",
+            "key": 0
+        },
+        {
+            "weight": 17,
+            "source": "ADL",
+            "target": "AVJ",
+            "key": 0
+        },
+        {
+            "weight": 6,
+            "source": "ADL",
+            "target": "RIC",
+            "key": 0
+        },
+        {
+            "weight": 6,
+            "source": "ADL",
+            "target": "URB",
+            "key": 0
+        },
+        {
+            "weight": 3,
+            "source": "ADL",
+            "target": "AWB",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "ADL",
+            "target": "ADA",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "ADL",
+            "target": "RIF",
+            "key": 0
+        },
+        {
+            "weight": 10,
+            "source": "ADL",
+            "target": "ASH",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "ADL",
+            "target": "RIA",
+            "key": 0
+        },
+        {
+            "weight": 22,
+            "source": "ADL",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 5,
+            "source": "ADL",
+            "target": "SMB",
+            "key": 0
+        },
+        {
+            "weight": 53,
+            "source": "ADL",
+            "target": "AIB",
+            "key": 0
+        },
+        {
+            "weight": 22,
+            "source": "ADL",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 48,
+            "source": "ADL",
+            "target": "AVD",
+            "key": 0
+        },
+        {
+            "weight": 8,
+            "source": "ADL",
+            "target": "URX",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "ADL",
+            "target": "RIP",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "ADL",
+            "target": "AWC",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "OLQ",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "BAG",
+            "target": "RIP",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "BAG",
+            "target": "OLQ",
+            "key": 0
+        },
+        {
+            "weight": 3,
+            "source": "BAG",
+            "target": "AQR",
+            "key": 0
+        },
+        {
+            "weight": 4,
+            "source": "BAG",
+            "target": "BAG",
+            "key": 0
+        },
+        {
+            "weight": 42,
+            "source": "BAG",
+            "target": "RIB",
+            "key": 0
+        },
+        {
+            "weight": 36,
+            "source": "BAG",
+            "target": "RIA",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "BAG",
+            "target": "AIB",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "BAG",
+            "target": "URX",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "BAG",
+            "target": "AUA",
+            "key": 0
+        },
+        {
+            "weight": 7,
+            "source": "BAG",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 17,
+            "source": "BAG",
+            "target": "AVE",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "RIP",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "AUA",
+            "target": "AIB",
+            "key": 0
+        },
+        {
+            "weight": 22,
+            "source": "AUA",
+            "target": "AVE",
+            "key": 0
+        },
+        {
+            "weight": 4,
+            "source": "AUA",
+            "target": "BAG",
+            "key": 0
+        },
+        {
+            "weight": 66,
+            "source": "AUA",
+            "target": "RIB",
+            "key": 0
+        },
+        {
+            "weight": 43,
+            "source": "AUA",
+            "target": "RIA",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "AUA",
+            "target": "DVA",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "AUA",
+            "target": "AVD",
+            "key": 0
+        },
+        {
+            "weight": 6,
+            "source": "AUA",
+            "target": "URX",
+            "key": 0
+        },
+        {
+            "weight": 14,
+            "source": "AUA",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 34,
+            "source": "AIB",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 7,
+            "source": "AIB",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 67,
+            "source": "AVE",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 8,
+            "source": "PDE",
+            "target": "DVA",
+            "key": 0
+        },
+        {
+            "weight": 21,
+            "source": "PDE",
+            "target": "AVK",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "PDE",
+            "target": "PVC",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "PDE",
+            "target": "PVR",
+            "key": 0
+        },
+        {
+            "weight": 8,
+            "source": "DVA",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "DVA",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 19,
+            "source": "AVA",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 9,
+            "source": "AVA",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 27,
+            "source": "PVC",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 69,
+            "source": "PVC",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "ASI",
+            "target": "SAA",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "ASI",
+            "target": "ASH",
+            "key": 0
+        },
+        {
+            "weight": 3,
+            "source": "ASI",
+            "target": "RIA",
+            "key": 0
+        },
+        {
+            "weight": 6,
+            "source": "ASI",
+            "target": "AIB",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "ASI",
+            "target": "ADL",
+            "key": 0
+        },
+        {
+            "weight": 5,
+            "source": "ASI",
+            "target": "AWC",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "ASI",
+            "target": "RIB",
+            "key": 0
+        },
+        {
+            "weight": 83,
+            "source": "SAA",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 19,
+            "source": "PVP",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 6,
+            "source": "PVP",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 3,
+            "source": "CEP",
+            "target": "ADL",
+            "key": 0
+        },
+        {
+            "weight": 3,
+            "source": "CEP",
+            "target": "RIP",
+            "key": 0
+        },
+        {
+            "weight": 113,
+            "source": "CEP",
+            "target": "RIC",
+            "key": 0
+        },
+        {
+            "weight": 25,
+            "source": "CEP",
+            "target": "URB",
+            "key": 0
+        },
+        {
+            "weight": 4,
+            "source": "CEP",
+            "target": "SIA",
+            "key": 0
+        },
+        {
+            "weight": 9,
+            "source": "CEP",
+            "target": "RIB",
+            "key": 0
+        },
+        {
+            "weight": 19,
+            "source": "CEP",
+            "target": "OLQ",
+            "key": 0
+        },
+        {
+            "weight": 3,
+            "source": "CEP",
+            "target": "PVR",
+            "key": 0
+        },
+        {
+            "weight": 10,
+            "source": "CEP",
+            "target": "URY",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "CEP",
+            "target": "SMD",
+            "key": 0
+        },
+        {
+            "weight": 18,
+            "source": "CEP",
+            "target": "RMH",
+            "key": 0
+        },
+        {
+            "weight": 4,
+            "source": "CEP",
+            "target": "URX",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "CEP",
+            "target": "RIF",
+            "key": 0
+        },
+        {
+            "weight": 3,
+            "source": "CEP",
+            "target": "RIA",
+            "key": 0
+        },
+        {
+            "weight": 4,
+            "source": "CEP",
+            "target": "IL2",
+            "key": 0
+        },
+        {
+            "weight": 6,
+            "source": "CEP",
+            "target": "SMB",
+            "key": 0
+        },
+        {
+            "weight": 9,
+            "source": "CEP",
+            "target": "RMG",
+            "key": 0
+        },
+        {
+            "weight": 40,
+            "source": "CEP",
+            "target": "AVE",
+            "key": 0
+        },
+        {
+            "weight": 5,
+            "source": "CEP",
+            "target": "BDU",
+            "key": 0
+        },
+        {
+            "weight": 11,
+            "source": "CEP",
+            "target": "RMD",
+            "key": 0
+        },
+        {
+            "weight": 10,
+            "source": "AVJ",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 23,
+            "source": "AVJ",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 7,
+            "source": "RIM",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 20,
+            "source": "RIM",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 61,
+            "source": "RIC",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "URB",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "SIA",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 6,
+            "source": "ADF",
+            "target": "ASH",
+            "key": 0
+        },
+        {
+            "weight": 21,
+            "source": "ADF",
+            "target": "AUA",
+            "key": 0
+        },
+        {
+            "weight": 107,
+            "source": "ADF",
+            "target": "RIA",
+            "key": 0
+        },
+        {
+            "weight": 11,
+            "source": "ADF",
+            "target": "SMB",
+            "key": 0
+        },
+        {
+            "weight": 3,
+            "source": "ADF",
+            "target": "AIB",
+            "key": 0
+        },
+        {
+            "weight": 11,
+            "source": "ADF",
+            "target": "URX",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "ADF",
+            "target": "ADL",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "ADF",
+            "target": "URY",
+            "key": 0
+        },
+        {
+            "weight": 6,
+            "source": "ADF",
+            "target": "BAG",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "ADF",
+            "target": "PVP",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "ADF",
+            "target": "AVH",
+            "key": 0
+        },
+        {
+            "weight": 4,
+            "source": "ADF",
+            "target": "RIB",
+            "key": 0
+        },
+        {
+            "weight": 6,
+            "source": "ADF",
+            "target": "AWB",
+            "key": 0
+        },
+        {
+            "weight": 6,
+            "source": "ADF",
+            "target": "ADA",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "IL2",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "IL2",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 4,
+            "source": "RMG",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 8,
+            "source": "RMG",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "AWC",
+            "target": "ASH",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "AWC",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 17,
+            "source": "AWC",
+            "target": "AWC",
+            "key": 0
+        },
+        {
+            "weight": 9,
+            "source": "AWC",
+            "target": "RIA",
+            "key": 0
+        },
+        {
+            "weight": 35,
+            "source": "AWC",
+            "target": "AIB",
+            "key": 0
+        },
+        {
+            "weight": 4,
+            "source": "RIA",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 11,
+            "source": "RIB",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 3,
+            "source": "RIB",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "ASK",
+            "target": "RIF",
+            "key": 0
+        },
+        {
+            "weight": 11,
+            "source": "ASK",
+            "target": "AIB",
+            "key": 0
+        },
+        {
+            "weight": 5,
+            "source": "ASK",
+            "target": "AIM",
+            "key": 0
+        },
+        {
+            "weight": 3,
+            "source": "ASK",
+            "target": "ADL",
+            "key": 0
+        },
+        {
+            "weight": 63,
+            "source": "RIF",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "SMB",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "SMB",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 10,
+            "source": "AQR",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 19,
+            "source": "AQR",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "ASE",
+            "target": "ASH",
+            "key": 0
+        },
+        {
+            "weight": 65,
+            "source": "ASE",
+            "target": "AIB",
+            "key": 0
+        },
+        {
+            "weight": 5,
+            "source": "ASE",
+            "target": "ADL",
+            "key": 0
+        },
+        {
+            "weight": 17,
+            "source": "ASE",
+            "target": "AWC",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "ASE",
+            "target": "AWB",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "ASE",
+            "target": "RIA",
+            "key": 0
+        },
+        {
+            "weight": 12,
+            "source": "AWA",
+            "target": "AWB",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "AWA",
+            "target": "ADA",
+            "key": 0
+        },
+        {
+            "weight": 5,
+            "source": "AWA",
+            "target": "RIF",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "AWA",
+            "target": "ASH",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "AWA",
+            "target": "AUA",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "AVK",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 34,
+            "source": "PVR",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "URY",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 7,
+            "source": "URY",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "AIM",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 167,
+            "source": "AVD",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "AVD",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "BDU",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 7,
+            "source": "BDU",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 37,
+            "source": "ASG",
+            "target": "AIB",
+            "key": 0
+        },
+        {
+            "weight": 114,
+            "source": "FLP",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 85,
+            "source": "FLP",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 2,
+            "source": "AVH",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 7,
+            "source": "AVH",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "SMD",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "RMH",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 19,
+            "source": "ASJ",
+            "target": "PVQ",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "PVQ",
+            "target": "AVB",
+            "key": 0
+        },
+        {
+            "weight": 4,
+            "source": "AFD",
+            "target": "AWB",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "AFD",
+            "target": "AIB",
+            "key": 0
+        },
+        {
+            "weight": 1,
+            "source": "RMD",
+            "target": "AVA",
+            "key": 0
+        },
+        {
+            "weight": 6,
+            "source": "ALN",
+            "target": "AVA",
+            "key": 0
+        }
+    ]
+}

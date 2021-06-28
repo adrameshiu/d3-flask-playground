@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://d3js.org/d3.v6.min.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <h1>D3 Force</h1>
+        <canvas id="network" width="500" height="500"></canvas>
+    </body>
+    <script>
+        var graph = {
+            nodes:[
+                {name:"Aditya", age:26},
+                {name:"Aishu", age:25},
+                {name:"Litin", age:23},
+                {name:"Adil", age:28}
+            ],
+            links:[
+                {source:"Aditya", target:"Aishu"},
+                {source:"Aishu", target:"Litin"},
+                {source:"Aditya", target:"Litin"},
+                {source:"Aditya", target:"Adil"}
+            ]
+        };
+
+        var canvas = d3.select('#network'),
+            width = canvas.attr('width'), //getting attribute from the canvas html itself
+            height = canvas.attr('height'),
+            contxt  = canvas.node().getContext("2d"),
+            r = 10;
+
+        simulation = d3.forceSimulation() //creates a simulation object
+                        .force('x', d3.forceX(width/2)) //takes the nodes to middle of the screen
+                        .force('y', d3.forceY(height/2))
+                        .force('collide', d3.forceCollide(r+1)) //to say that we dont want our nodes to collide
+                        .force('charge', d3.forceManyBody(). //charge creates where each nodes try to repel others
+                                                strength(-400)) //-ve to repel and +ve to attract
+                        .force('link', d3.forceLink()
+                                        .id(function(d) {return d.name;}))  //by default, id for each node is an integer
+                                                                           //since we dont have that, link cant find source and target directly
+                                                                            // we have to manually tell it that `name` is the id
+                        .on('tick', update); //called whenever the simulation has a new value
+        
+        simulation.nodes(graph.nodes);//define what the simulation runs on
+        simulation.force('link') //force to link each of the source and target in links to their corresponding nodes
+            .links(graph.links);
+        //test
+        // graph.nodes.forEach(function (d) {
+        //     d.x = Math.random() * width;
+        //     d.y = Math.random() * height;
+        // });
+
+        //drawing the canvas
+        function update(){
+            contxt.clearRect(0, 0, width, height); //clear the whole canvas         
+            //to make d3 draw this node thing in the canvas, 
+            //we need to tell it to draw this path
+            contxt.beginPath();  //start creating something
+            graph.nodes.forEach(drawNode); //call draw node for each node
+            contxt.fill(); //draw only now
+
+            contxt.beginPath();  //start creating something
+            graph.links.forEach(drawLink); //call draw node for each node
+            contxt.stroke(); //we just draw line not fill the object
+        }
+
+        //draw node
+        function drawNode(node){
+            //the x and y coordinate of each node is not defined yet...we will use the simulation system to control those variable
+            contxt.moveTo(node.x, node.y); //move the cursor to the position of the node
+            contxt.arc(node.x, node.y, r, 0, 2*Math.PI); //create a full circle arc
+        }
+
+        //draw links
+        function drawLink(link){
+            contxt.moveTo(link.source.x, link.source.y);
+            contxt.lineTo(link.target.x, link.target.y); //line from source to target
+        }
+
+
+        update();
+    </script>
+</html>

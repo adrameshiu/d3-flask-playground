@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://d3js.org/d3.v6.min.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <svg id="my_svg" style="width: 100%;height:800px"></svg>
+    </body>
+    <script>
+        const my_svg = d3.select("#my_svg");
+        const c = my_svg.append("circle")
+                    .attr("cx", 20)
+                    .attr("cy", 20)
+                    .attr("r", 5)
+                    .style("fill", "purple");
+
+        c.transition()
+        // .ease(d3.easeCubic)
+        .duration(1000)
+        .attr('cx',200)
+        .attr('cy',200)
+        .attr('r',20)
+        .style('fill','red');
+    </script>
+</html>
